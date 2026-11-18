@@ -1,0 +1,9 @@
+{
+  "searchTerm": "Barolo",
+  "wineType": "any",
+  "market": "US",
+  "maxResults": 3,
+  "includeDetails": true,
+  "reviewsPerWine": 2,
+  "vintageIds": []
+}

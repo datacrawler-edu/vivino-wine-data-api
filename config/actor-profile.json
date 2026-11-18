@@ -1,0 +1,121 @@
+{
+  "repository": {
+    "name": "vivino-wine-data-api",
+    "description": "Python, JavaScript, and cURL examples for Vivino wine vintage, rating, and market-price data via Apify.",
+    "homepage": "https://apify.com/datascraperes/vivino-wine-scraper?fpr=edudata",
+    "language": "Python",
+    "license": "MIT"
+  },
+  "actor": {
+    "displayName": "Vivino Wine Scraper | Vintage & Market Data",
+    "id": "datascraperes/vivino-wine-scraper",
+    "storeUrl": "https://apify.com/datascraperes/vivino-wine-scraper",
+    "apiBaseUrl": "https://api.apify.com/v2/acts/datascraperes~vivino-wine-scraper",
+    "description": "Search Vivino wines by name or type, or look up vintage IDs; get one Dataset row per vintage with ratings and market offers when available."
+  },
+  "affiliate": {
+    "enabled": true,
+    "parameter": "fpr=edudata",
+    "actorUrl": "https://apify.com/datascraperes/vivino-wine-scraper?fpr=edudata",
+    "pricingUrl": "https://apify.com/pricing?fpr=edudata"
+  },
+  "platform": {
+    "apifyFreePlan": {
+      "monthlyPrepaidUsage": "$5",
+      "renewsMonthly": true,
+      "noCreditCardRequired": true,
+      "unusedCreditsExpire": true,
+      "sourceUrl": "https://apify.com/pricing?fpr=edudata"
+    }
+  },
+  "interfaces": {
+    "web": {
+      "enabled": true,
+      "inputTab": "Input",
+      "outputTab": "Dataset",
+      "runAction": "Start",
+      "primaryInput": "searchTerm",
+      "inputLabel": "wine name or keyword",
+      "inputSummary": "Search one wine name or keyword, or leave it blank to browse by type. For direct lookup, clear the keyword and use the optional vintage ID list with Any type.",
+      "exportFormats": ["JSON", "CSV"]
+    },
+    "api": {
+      "enabled": true,
+      "examples": ["cURL", "Python", "JavaScript"]
+    }
+  },
+  "seo": {
+    "primaryKeyword": "Vivino wine data API",
+    "secondaryKeywords": [
+      "Vivino wine scraper API",
+      "Vivino vintage data",
+      "Vivino wine ratings by vintage",
+      "Vivino wine prices by market",
+      "Apify Actor API Python"
+    ],
+    "topics": ["vivino", "wine-data", "apify", "python", "web-scraping"],
+    "longTailIntents": [
+      "Run a Vivino wine search from Python with the Apify API",
+      "Look up Vivino vintage IDs and read wine ratings as structured data",
+      "Export Vivino vintage prices and ratings to CSV"
+    ]
+  },
+  "content": {
+    "readmeSectionOrder": [
+      "What this repository helps you do",
+      "Example result",
+      "Run without code",
+      "Try it with Apify's free plan",
+      "Quick start for developers",
+      "Input example",
+      "Request examples",
+      "Output fields",
+      "Common use cases",
+      "Long-tail use-case sections",
+      "FAQ",
+      "Limits and pricing",
+      "Hosted version",
+      "Responsible use",
+      "Support"
+    ],
+    "exampleFiles": [
+      "examples/python/search_wine.py",
+      "examples/python/batch_wine_search.py",
+      "examples/python/export_vintages.py"
+    ],
+    "faqFile": "docs/faq.md"
+  },
+  "pricing": {
+    "summary": "PAY_PER_EVENT: one vintage-result event is billed for each confirmed vintage saved to the Dataset. Requested details and tasting notes are part of that row and event.",
+    "unit": "one confirmed vintage saved to the Dataset",
+    "price": "Tiered per vintage-result as verified 2026-11-18: $0.001 FREE, $0.0009 BRONZE, $0.0008 SILVER, and $0.00075 GOLD/PLATINUM/DIAMOND. Check the live Pricing tab for current rates."
+  },
+  "distribution": {
+    "githubUrl": "https://github.com/datacrawler-edu/vivino-wine-data-api",
+    "actorToGithubUrl": "https://github.com/datacrawler-edu/vivino-wine-data-api",
+    "githubToActorUrl": "https://apify.com/datascraperes/vivino-wine-scraper?fpr=edudata",
+    "organizationHubUrl": "https://github.com/datacrawler-edu",
+    "firstRelease": {
+      "tag": "v1.0.0",
+      "title": "Initial public integration examples"
+    }
+  },
+  "examples": {
+    "inputFile": "data/sample-input.json",
+    "outputFile": "data/sample-output.json",
+    "csvFile": "data/sample-output.csv"
+  },
+  "measurement": {
+    "observationWindowDays": 30,
+    "githubSignals": ["views", "uniqueVisitors", "clones", "referrers", "popularContent"],
+    "apifySignals": ["users", "runs", "datasetItems", "revenue"],
+    "searchChecks": [
+      "site:github.com/datacrawler-edu/vivino-wine-data-api",
+      "Vivino wine data API Apify"
+    ]
+  },
+  "support": {
+    "issuesUrl": "https://github.com/datacrawler-edu/vivino-wine-data-api/issues",
+    "actorSupportUrl": "https://apify.com/datascraperes/vivino-wine-scraper?fpr=edudata"
+  }
+}

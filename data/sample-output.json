@@ -1,0 +1,29 @@
+[
+  {
+    "vintageId": 1200001,
+    "wineId": 120000,
+    "name": "Example Estate Cabernet Sauvignon 2021",
+    "year": "2021",
+    "wineName": "Cabernet Sauvignon",
+    "wineTypeId": 1,
+    "winery": {"id": 1200, "name": "Example Estate"},
+    "region": {"id": 245, "name": "Napa Valley"},
+    "countryCode": "US",
+    "market": "US",
+    "rating": 4.2,
+    "ratingsCount": 128,
+    "ratingSource": "vintage",
+    "wineRating": 4.1,
+    "wineRatingsCount": 380,
+    "imageUrl": null,
+    "price": {"amount": 32.5, "currency": "USD", "merchantId": null, "url": null},
+    "details": {
+      "description": null,
+      "alcohol": 14.2,
+      "grapes": [],
+      "foods": [],
+      "ratingsDistribution": {"1": 1, "2": 4, "3": 18, "4": 62, "5": 43}
+    },
+    "reviews": []
+  }
+]
